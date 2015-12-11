@@ -1,5 +1,5 @@
 mkdir /usr/local/jvm/
-tar -xvf jdk-*.tar.gz
+tar -xvf /home/karlitos/Downloads/jdk-*.tar.gz
 mv jdk1.8.* jdk1.8.0
 mv jdk1.8.0 /usr/lib/jvm/
 
