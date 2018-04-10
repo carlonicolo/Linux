@@ -22,7 +22,7 @@ def readWriteNanorc():
 		    print("Old d: ", d)
 		    
 		    #print("Position -2: ",d[-3])
-		    d = 'include "'+d[:-1]+'"'+d[-1:0]
+		    d = 'include "/usr/share/nano/'+d[:-1]+'"'+d[-1:0]
 		    data[i] = d+"\n"
 		    
 		    #s[:4] + '-' + s[4:]
