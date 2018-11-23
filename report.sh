@@ -17,4 +17,4 @@ echo ""
 #echo $ip
 
 scp log.txt $username@$ip:~/
-echo "Done !!!"
+echo "Done !!!!!"
